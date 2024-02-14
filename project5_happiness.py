@@ -55,6 +55,10 @@ list_features = ["Ladder score", "Logged GDP per capita"]
 sns.boxplot(data=df2021.loc[:,list_features],orient="v",palette="Set1")
 plt.show()
 
+#distribution of feature set 3
+list_features = ["Healthy life expectancy"]
+sns.boxplot(data=df2021.loc[:,list_features],orient="v",palette="Set1")
+plt.show()
 
 #happiest and unhappiest country in 2021
 df2021_happiest_unhappiest = df2021[(df2021.loc[:,"Ladder score"] > 7.4) | (df2021.loc[:,"Ladder score"] < 3.5)]
