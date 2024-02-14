@@ -245,7 +245,9 @@ sns.clustermap(df.corr(),center=0, cmap="vlag",dendrogram_ratio = (0.1,0.2), ann
 plt.show()
 
 
-
+"""
+plotly plots does not work in Spyder
+"""
 
 
 
